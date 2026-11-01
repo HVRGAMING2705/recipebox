@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "recipebox_recipe_manager_app"
+version = "0.1.0"
+description = "A fully functional recipe manager that allows users to save recipes, search by ingredient, and mark favorites. A working recipe app with recipe saving, ingredient search, and favorites."
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
